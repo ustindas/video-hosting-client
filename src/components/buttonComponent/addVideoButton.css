@@ -1,0 +1,31 @@
+.add-video-button {
+    margin-right: 25px;
+    text-align: center;
+    height: 40px;
+    width: 140px;
+    border: 0px;
+    border-radius: 8px;
+
+    background: #292D32;
+    color: white;
+    text-transform: uppercase;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+
+    padding: 0px 16px;
+    display: flex;
+    letter-spacing: -0.025em;
+    align-items: center;
+    justify-content: space-between;
+
+    text-decoration: none;
+}
+
+.add-video-button:hover {
+    background-color: rgba(41, 45, 50, 0.95);
+    cursor: pointer;
+}
+

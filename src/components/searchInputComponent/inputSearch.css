@@ -1,0 +1,17 @@
+.search-block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ECECEC;
+    border-radius: 8px;
+    width: 448px;
+    height: 39px;
+    box-sizing: border-box;
+    padding: 6px 16px;
+}
+
+input{
+    width: 100%;
+    border: none;
+    outline: none;
+}

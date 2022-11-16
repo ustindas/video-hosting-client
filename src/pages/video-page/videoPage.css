@@ -1,0 +1,36 @@
+
+.like{
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    background-color: white;
+}
+
+.videoContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+video{
+    width: 70%;
+    height: 20%;
+}
+
+.videoInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.channel-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.avatar-and-name{
+    display: flex;
+    margin-right: 30px;
+}

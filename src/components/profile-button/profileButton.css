@@ -1,0 +1,23 @@
+.header-profile-img{
+    width: 39px;
+    height: 39px;
+    background-color: #a4a4a4;
+    border-radius: 50%;
+    margin-right: 13px;
+}
+.header-profile{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+}
+.header-profile-dropdown-img{
+    height: 7px;
+    width: 10px;
+    padding-top: 2px;
+}
+
+.header-profile-name{
+    margin-right: 7px;
+}

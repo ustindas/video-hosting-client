@@ -1,0 +1,12 @@
+.profile-block {
+    display: flex;
+    width: 50vw;
+    margin: 0 auto;
+    background-color: #d4b9e7;
+}
+
+.name {
+    font-size: 28px;
+    font-weight: 600;
+    color: #7B2CBF
+}
