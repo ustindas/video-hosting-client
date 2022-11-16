@@ -34,6 +34,4 @@ export const uploadVideo = async (data: any) => {
     });
 }
 
-export const getVideoInfo = () => {
-    return {Name: "Name", Description: "Descrewfdsf", ChannelName: "ChannelName", CountLikes: 123, CountComments: 100}
-}
+
