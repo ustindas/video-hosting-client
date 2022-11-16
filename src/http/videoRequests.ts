@@ -11,7 +11,7 @@ export const getVideo = async () => {
     })
         .then(response => {
             return response.arrayBuffer().then((fileData: ArrayBuffer) => {
-                const blob = new Blob([fileData], {type: "video/mp4"}); //TODO: почитать, обязательно тип?
+                const blob = new Blob([fileData], {type: "video/mp4"}); 
                 return URL.createObjectURL(blob);
             });
         })
